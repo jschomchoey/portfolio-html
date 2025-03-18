@@ -223,12 +223,13 @@ body {
 .project-card{
     background-color: #ffffff;
     box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
-    padding: 25px;
+    
     border-radius: 20px;
 }
 
 .project-title{
     color: #4285f4;
+    padding: 0 25px;
 }
 
 .project-img{
@@ -236,6 +237,11 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+    padding: 10px;
+}
+
+.project-desp{
+    padding: 0 25px;
 }
 
 .wix-logo{
