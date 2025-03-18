@@ -85,10 +85,6 @@ body {
     background-size: 150px 150px;
 }
 
-.container{
-    height: 100vh;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -127,10 +123,14 @@ body {
     color: #101010;
 }
 
+.container{
+    min-width: 350px;
+}
+
 .introduce{
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 50px;
-    height: 100vh;
+    height: 100%;
     /* background-color: #ffbaba; */
 }
 
@@ -235,11 +235,20 @@ body {
         flex-direction: column;
         gap: 30px;
     }
-    
+
+    .introduce-name{
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 1024px){
-    
+    .introduce-warp{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .introduce-name{
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 1280px){
