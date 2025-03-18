@@ -83,6 +83,7 @@ body {
         repeating-linear-gradient( rgba(10, 102, 194, 0.1) 0%, rgba(10, 102, 194, 0.1) 1px, transparent 1px, transparent 50%),
         repeating-linear-gradient(90deg, rgba(10, 102, 194, 0.1) 0%, rgba(10, 102, 194, 0.1) 1px, transparent 1px, transparent 50%);
     background-size: 150px 150px;
+    min-width: 350px;
 }
 
 .navbar{
@@ -124,7 +125,7 @@ body {
 }
 
 .container{
-    min-width: 350px;
+    
 }
 
 .introduce{
@@ -226,7 +227,7 @@ body {
     }
 
     .introduce-name{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -237,7 +238,7 @@ body {
     }
 
     .introduce-name{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -247,7 +248,7 @@ body {
         gap: 30px;
     }
     .introduce-name{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
 
