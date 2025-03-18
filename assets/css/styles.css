@@ -137,8 +137,6 @@ body {
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: #4285f4;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,16 +146,9 @@ body {
     text-decoration: none;
 }
 
-.instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-}
-
-.linkedin {
-    background-color: #0077b5;
-}
-
-.github {
-    background-color: #333;
+.social-icon-img {
+    width: 30px;  /* Adjust size */
+    height: 30px; /* Adjust size */
 }
 
 /* Feature Cards */
@@ -206,7 +197,7 @@ body {
 /* xs - Extra Small (0px and up) */
 @media (min-width: 0px) {
     body {
-        padding-top: 140px;
+        padding-top: 100px;
     }
     
     .navbar {
@@ -260,6 +251,10 @@ body {
     body {
         padding-top: 100px;
     }
+
+    .container {
+        max-width: 95%;
+    }
     
     .navbar {
         flex-direction: row;
@@ -283,8 +278,13 @@ body {
 
 /* md - Medium (900px and up) */
 @media (min-width: 900px) {
+
     body {
         padding-top: 90px;
+    }
+
+    .container {
+        max-width: 95%;
     }
     
     .navbar {
@@ -319,8 +319,16 @@ body {
 
 /* lg - Large (1200px and up) */
 @media (min-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+
     .navbar {
         padding: 15px 40px;
+    }
+
+    .hero-content {
+        flex: 2; /* Make the hero content wider */
     }
     
     .hero-name {
@@ -336,7 +344,7 @@ body {
     }
     
     .features {
-        width: 55%;
+        width: 50%; /* Narrow the features section */
     }
     
     .feature-card {
@@ -347,14 +355,18 @@ body {
 /* xl - Extra Large (1536px and up) */
 @media (min-width: 1536px) {
     .container {
-        max-width: 1400px;
+        max-width: 95%;
     }
-    
+
+    .hero-content {
+        flex: 2; /* Make the hero content wider */
+    }
+
     .hero-name {
         font-size: 60px;
     }
     
     .features {
-        width: 60%;
+        width: 50%; /* Narrow the features section */
     }
 }

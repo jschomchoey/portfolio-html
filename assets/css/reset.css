@@ -10,6 +10,5 @@ body {
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
-    /* Add padding top to avoid content hiding behind fixed navbar */
     padding-top: 90px;
 }
