@@ -107,7 +107,7 @@ body {
 .logo a{
     text-decoration: none;
     font-weight: 700;
-    color: #4285F4;
+    color: #1A6DF4;
 }
 
 .menu{
@@ -145,7 +145,7 @@ body {
 
 .introduce-name{
     line-height: 1;
-    color: #4285F4;
+    color: #1A6DF4;
     margin-bottom: 10px;
 }
 
@@ -189,12 +189,12 @@ body {
 
 .features-icon {
     font-size: 24px;
-    color: #4285f4;
+    color: #1A6DF4;
     margin-right: 15px;
 }
 
 .features-title{
-    color: #4285f4;
+    color: #1A6DF4;
 }
 
 .project{
