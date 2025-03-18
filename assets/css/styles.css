@@ -124,10 +124,6 @@ body {
     color: #101010;
 }
 
-.container{
-    
-}
-
 .introduce{
     padding-top: 130px;
     padding-bottom: 50px;
@@ -151,6 +147,7 @@ body {
 
 .introduce-role{
     margin-bottom: 40px;
+    font-size: 18px;
 }
 
 .introduce-desp{
@@ -189,7 +186,7 @@ body {
 
 .features-icon {
     font-size: 24px;
-    color: #4285f4;
+    color: #101010;
     margin-right: 15px;
 }
 
@@ -199,16 +196,16 @@ body {
 
 .project{
     background-color: #FFFFFF;
-    height: 20vh;
+    height: 10vh;
 }
 
 .skill{
-    /* background-color: #ebffb6; */
+    background-color: #ebffb6;
     height: 10vh;
 }
 
 .contact{
-    /* background-color: #bac3ff; */
+    background-color: #bac3ff;
     height: 10vh;
 }
 
