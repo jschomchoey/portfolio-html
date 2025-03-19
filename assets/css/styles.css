@@ -250,7 +250,7 @@ body {
 }
 
 .wix-logo{
-    width: 45px;
+    width: auto;
     height: 16px;
 }
 
@@ -281,7 +281,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: end;
+    justify-content: center;
 }
 
 .skill-icon{
@@ -353,7 +353,9 @@ body {
     }
 
     .skill-warp{
-        gap: 10px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
     }
 
     .skill-list{
