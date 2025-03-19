@@ -204,12 +204,10 @@ body {
 }
 
 .project-warp{
-    
     padding: 30px 25px;
     padding-bottom: 25px;
     align-items: center;
     height: 100%;
-    
 }
 
 .project-header-text{
@@ -274,6 +272,10 @@ body {
         padding: 20px 30px;
     }
 
+    .introduce{
+        padding-bottom: 15px;
+    }
+
     .introduce-warp{
         flex-direction: column;
         gap: 30px;
@@ -301,6 +303,14 @@ body {
         padding-bottom: 15px;
         flex-direction: column;
         gap: 15px;
+    }
+
+    .project-title{
+        padding: 0 15px;
+    }
+
+    .project-desp{
+        padding: 0 15px;
     }
 
 
