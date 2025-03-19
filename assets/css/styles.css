@@ -356,6 +356,8 @@ body {
         flex-direction: column;
         gap: 20px;
         align-items: start;
+        padding: 15px 15px;
+        padding-bottom: 15px;
     }
 
     .skill-list{
