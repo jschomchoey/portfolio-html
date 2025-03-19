@@ -381,7 +381,7 @@ body {
     .project-list{
         flex-direction: column;
     }
-
+    
     .skill-icon{
         width: auto;
         height: 20px;
@@ -402,7 +402,7 @@ body {
 
     .skill-icon{
         width: auto;
-        height: 30px;
+        height: 25px;
     }
 
 }
