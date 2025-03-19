@@ -200,6 +200,7 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
     border-radius: 20px;
+    scroll-margin-top: 110px;
 }
 
 .project-warp{
@@ -226,8 +227,8 @@ body {
 .project-card{
     background-color: #ffffff;
     border: 2px solid #ebf3ff;
-    border-radius: 15px;
-    box-shadow: 0 0px 15px 0 rgba(10, 102, 194, 0.1);
+    border-radius: 12px;
+    /* box-shadow: 0 0px 15px 0 rgba(10, 102, 194, 0.1); */
 }
 
 .project-title{
@@ -257,10 +258,11 @@ body {
 .skill{
     background-color: #FFFFFF;
     margin: 0 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
     border-radius: 20px;
     height: 100%;
+    scroll-margin-top: 110px;
 }
 
 .skill-warp{
@@ -329,6 +331,25 @@ body {
 
 #skill-wix{
     box-shadow: 0 3px 10px 0 rgba(194, 117, 10, 0.3);
+}
+
+.lang{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.lang-list{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 }
 
 .contact{
@@ -409,6 +430,10 @@ body {
     .skill-icon{
         width: auto;
         height: 15px;
+    }
+
+    .lang{
+        margin: 0 20px;
     }
 }
 
