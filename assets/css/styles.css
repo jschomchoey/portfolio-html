@@ -270,6 +270,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    align-items: center;
 }
 
 .skill-header-text{
@@ -350,6 +351,19 @@ body {
         margin: 0 20px;
         margin-bottom: 20px;
     }
+
+    .skill-warp{
+        gap: 30px;
+    }
+
+    .skill-list{
+        gap: 10px;
+    }
+
+    .skill-icon{
+        width: auto;
+        height: 15px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -365,6 +379,19 @@ body {
     .project-list{
         flex-direction: column;
     }
+
+    .skill-warp{
+        gap: 50px;
+    }
+
+    .skill-list{
+        gap: 20px;
+    }
+
+    .skill-icon{
+        width: auto;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -378,11 +405,23 @@ body {
     .project-list{
         flex-direction: column;
     }
-    
+    .skill-list{
+        gap: 20px;
+    }
+    .skill-icon{
+        width: auto;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 1280px){
-    
+    .skill-list{
+        gap: 30px;
+    }
+    .skill-icon{
+        width: auto;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 1536px){
