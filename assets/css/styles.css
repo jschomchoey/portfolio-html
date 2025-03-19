@@ -260,6 +260,7 @@ body {
     margin-bottom: 30px;
     box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
     border-radius: 20px;
+    height: 100%;
 }
 
 .skill-warp{
@@ -268,6 +269,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
+    gap: 100px;
 }
 
 .skill-header-text{
@@ -276,16 +279,9 @@ body {
 
 .skill-list{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-}
-
-.skill-group{
-    display: flex;
-    gap: 20px;
-}
-
-.skill-list{
-    display: flex;
+    justify-content: end;
 }
 
 .skill-icon{
@@ -294,7 +290,7 @@ body {
 }
 
 .contact{
-    background-color: #bac3ff;
+    /* background-color: #bac3ff; */
     height: 10vh;
 }
 
@@ -351,20 +347,13 @@ body {
         padding: 0 15px;
     }
 
-    .skill{
-        margin: 0 20px;
-        margin-bottom: 20px;
-    }
-
     .skill-warp{
         gap: 20px;
     }
 
-
-
     .skill-icon{
         width: auto;
-        height: 15px;
+        height: 20px;
     }
 }
 
@@ -380,10 +369,6 @@ body {
 
     .project-list{
         flex-direction: column;
-    }
-
-    .skill-warp{
-        gap: 20px;
     }
 
     .skill-icon{
@@ -408,6 +393,7 @@ body {
         width: auto;
         height: 30px;
     }
+
 }
 
 @media screen and (max-width: 1280px){
