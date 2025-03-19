@@ -197,13 +197,19 @@ body {
 .project{
     background-color: #FFFFFF;
     height: 100%;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
+    border-radius: 20px;
 }
 
 .project-warp{
-    padding: 30px 5%;
-    padding-bottom: 50px;
+    
+    padding: 30px 25px;
+    padding-bottom: 25px;
     align-items: center;
     height: 100%;
+    
 }
 
 .project-header-text{
@@ -222,9 +228,9 @@ body {
 
 .project-card{
     background-color: #ffffff;
-    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
-    
+    border: 2px solid #d3e4ff;
     border-radius: 20px;
+    box-shadow: 0 0px 15px 0 rgba(10, 102, 194, 0.1);
 }
 
 .project-title{
@@ -277,9 +283,30 @@ body {
         margin-top: 20px;
     }
 
+    /* .project-warp{
+        padding: 10px 10px;
+        padding-bottom: 10px;
+    } */
+
+    .project-warp{
+        padding: 0px;
+    }
+
+    .project-header-text{
+        padding: 0 15px;
+        padding-top: 15px;
+    }
+
+    .project-header-desp{
+        padding: 0px 15px;
+    }
+
     .project-list{
+        padding: 15px;
         flex-direction: column;
     }
+
+
 }
 
 @media screen and (max-width: 768px){
