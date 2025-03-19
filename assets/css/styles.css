@@ -287,8 +287,48 @@ body {
 .skill-icon{
     width: auto;
     height: 65px;
-    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
-    border-radius: 6px;
+    /* box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2); */
+    border-radius: 5.5px;
+}
+
+#skill-html{
+    box-shadow: 0 3px 10px 0 rgba(194, 47, 10, 0.3);
+}
+
+#skill-css{
+    box-shadow: 0 3px 10px 0 rgba(10, 47, 194, 0.3);
+}
+
+#skill-js{
+    box-shadow: 0 3px 10px 0 rgba(194, 163, 10, 0.3);
+}
+
+#skill-react{
+    box-shadow: 0 3px 10px 0 rgba(10, 163, 194, 0.3);
+}
+
+#skill-materialui{
+    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.3);
+}
+
+#skill-nodejs{
+    box-shadow: 0 3px 10px 0 rgba(10, 194, 16, 0.3);
+}
+
+#skill-expressapi{
+    box-shadow: 0 3px 10px 0 rgba(101, 101, 101, 0.3);
+}
+
+#skill-git{
+    box-shadow: 0 3px 10px 0 rgba(194, 59, 10, 0.3);
+}
+
+#skill-figma{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#skill-wix{
+    box-shadow: 0 3px 10px 0 rgba(194, 117, 10, 0.3);
 }
 
 .contact{
