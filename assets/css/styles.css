@@ -287,6 +287,8 @@ body {
 .skill-icon{
     width: auto;
     height: 65px;
+    box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
+    border-radius: 6px;
 }
 
 .contact{
