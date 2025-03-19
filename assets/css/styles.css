@@ -298,7 +298,9 @@ body {
 
     .project-list{
         padding: 0 15px;
+        padding-bottom: 10px;
         flex-direction: column;
+        gap: 10px;
     }
 
 
