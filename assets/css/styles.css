@@ -347,6 +347,11 @@ body {
         padding: 0 15px;
     }
 
+    .skill{
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+
     .skill-warp{
         gap: 20px;
     }
