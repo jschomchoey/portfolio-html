@@ -291,7 +291,7 @@ body {
 
 .contact{
     /* background-color: #bac3ff; */
-    height: 10vh;
+    height: 100vh;
 }
 
 @media screen and (max-width: 640px){
