@@ -138,6 +138,19 @@ body {
     height: 100%;
 }
 
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
 .introduce-name{
     line-height: 1;
     color: #4285F4;
@@ -354,7 +367,7 @@ body {
 
 .contact{
     /* background-color: #bac3ff; */
-    height: 100vh;
+    height: 1vh;
 }
 
 @media screen and (max-width: 640px){
@@ -412,7 +425,7 @@ body {
 
     .skill{
         margin: 0 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .skill-warp{
