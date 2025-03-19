@@ -386,8 +386,14 @@ body {
         gap: 30px;
     }
 
+    .profile-image{
+        width: 75px;
+        height: 75px;
+    }
+
     .introduce-name{
         margin-top: 20px;
+        font-size: 36px;
     }
 
     .project{
