@@ -256,7 +256,6 @@ body {
 
 .skill{
     background-color: #FFFFFF;
-    /* height: 100%; */
     margin: 0 30px;
     margin-bottom: 30px;
     box-shadow: 0 3px 10px 0 rgba(10, 102, 194, 0.2);
@@ -266,10 +265,8 @@ body {
 .skill-warp{
     padding: 30px 25px;
     padding-bottom: 25px;
-    /* height: 100%; */
     display: flex;
     justify-content: space-between;
-    gap: 100px;
     align-items: center;
 }
 
@@ -279,9 +276,16 @@ body {
 
 .skill-list{
     display: flex;
-    gap: 50px;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-group{
+    display: flex;
+    gap: 20px;
+}
+
+.skill-list{
+    display: flex;
 }
 
 .skill-icon{
@@ -356,9 +360,7 @@ body {
         gap: 20px;
     }
 
-    .skill-list{
-        gap: 10px;
-    }
+
 
     .skill-icon{
         width: auto;
@@ -384,10 +386,6 @@ body {
         gap: 20px;
     }
 
-    .skill-list{
-        gap: 20px;
-    }
-
     .skill-icon{
         width: auto;
         height: 30px;
@@ -405,9 +403,7 @@ body {
     .project-list{
         flex-direction: column;
     }
-    .skill-list{
-        gap: 20px;
-    }
+
     .skill-icon{
         width: auto;
         height: 30px;
@@ -415,13 +411,7 @@ body {
 }
 
 @media screen and (max-width: 1280px){
-    .skill-list{
-        gap: 30px;
-    }
-    .skill-icon{
-        width: auto;
-        height: 30px;
-    }
+
 }
 
 @media screen and (max-width: 1536px){
