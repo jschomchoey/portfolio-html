@@ -353,12 +353,16 @@ body {
     }
 
     .skill-warp{
-        gap: 20px;
+        gap: 10px;
+    }
+
+    .skill-list{
+        gap: 15px;
     }
 
     .skill-icon{
         width: auto;
-        height: 20px;
+        height: 15px;
     }
 }
 
@@ -378,7 +382,7 @@ body {
 
     .skill-icon{
         width: auto;
-        height: 30px;
+        height: 20px;
     }
 }
 
