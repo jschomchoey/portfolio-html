@@ -228,8 +228,8 @@ body {
 
 .project-card{
     background-color: #ffffff;
-    border: 2px solid #d3e4ff;
-    border-radius: 20px;
+    border: 2px solid #ebf3ff;
+    border-radius: 15px;
     box-shadow: 0 0px 15px 0 rgba(10, 102, 194, 0.1);
 }
 
@@ -283,11 +283,6 @@ body {
         margin-top: 20px;
     }
 
-    /* .project-warp{
-        padding: 10px 10px;
-        padding-bottom: 10px;
-    } */
-
     .project-warp{
         padding: 0px;
     }
@@ -302,7 +297,7 @@ body {
     }
 
     .project-list{
-        padding: 15px;
+        padding: 0 15px;
         flex-direction: column;
     }
 
