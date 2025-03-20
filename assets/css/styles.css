@@ -516,6 +516,10 @@ body {
     .education-all{
         flex-direction: column;
     }
+
+    .footer-container{
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 768px){
