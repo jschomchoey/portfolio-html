@@ -1,3 +1,4 @@
+/* >1280px Desktop */
 * {
   margin: 0;
   padding: 0;
@@ -432,7 +433,76 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 640px) {
+/* Laptops */
+@media (max-width: 1280px) {
+}
+
+/* Tablets landscape */
+@media (max-width: 1024px) {
+  .introduce-warp {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .introduce-name {
+    margin-top: 20px;
+  }
+  .project-list {
+    flex-direction: column;
+  }
+
+  .skill-warp {
+    gap: 20px;
+  }
+
+  .skill-icon {
+    width: auto;
+    height: 45px;
+  }
+
+  .education-all {
+    flex-direction: column;
+  }
+
+  .education-warp {
+    align-items: start;
+  }
+}
+
+/* Tablets portrait */
+@media (max-width: 768px) {
+  .introduce-warp {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce-name {
+    margin-top: 20px;
+  }
+
+  .project-list {
+    flex-direction: column;
+  }
+
+  .skill-warp {
+    gap: 20px;
+  }
+
+  .skill-icon {
+    width: auto;
+    height: 30px;
+  }
+
+  .education-all {
+    flex-direction: column;
+  }
+
+  .education-warp {
+    align-items: start;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
   p {
     font-size: 14px;
   }
@@ -545,72 +615,4 @@ body {
   .footer-container {
     padding-bottom: 20px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .introduce-warp {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .introduce-name {
-    margin-top: 20px;
-  }
-
-  .project-list {
-    flex-direction: column;
-  }
-
-  .skill-warp {
-    gap: 20px;
-  }
-
-  .skill-icon {
-    width: auto;
-    height: 30px;
-  }
-
-  .education-all {
-    flex-direction: column;
-  }
-
-  .education-warp {
-    align-items: start;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .introduce-warp {
-    flex-direction: column;
-    gap: 30px;
-  }
-  .introduce-name {
-    margin-top: 20px;
-  }
-  .project-list {
-    flex-direction: column;
-  }
-
-  .skill-warp {
-    gap: 20px;
-  }
-
-  .skill-icon {
-    width: auto;
-    height: 45px;
-  }
-
-  .education-all {
-    flex-direction: column;
-  }
-
-  .education-warp {
-    align-items: start;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-}
-
-@media screen and (max-width: 1536px) {
 }
