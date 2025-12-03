@@ -76,6 +76,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   color: #303030;
+  margin: 0;
 }
 
 body {
@@ -115,6 +116,10 @@ body {
   z-index: 1000;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+}
+
+.bold-text {
+  font-weight: 700;
 }
 
 .logo a {
@@ -186,9 +191,10 @@ body {
 }
 
 .social-icon {
-  width: 25px;
+  /* width: 25px; */
   height: 25px;
   display: block;
+  border-radius: 5px;
 }
 
 .resume {
@@ -279,6 +285,11 @@ body {
   font-size: 18px;
 }
 
+.project-subtitle {
+  font-weight: 700;
+  padding: 0 25px;
+}
+
 .project-img {
   width: 100%;
   aspect-ratio: 16/9;
@@ -290,6 +301,12 @@ body {
 .project-desp {
   padding: 0 25px;
   margin-bottom: 20px;
+}
+
+.project-bullet-point {
+  padding: 0 25px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .wix-logo {
@@ -431,6 +448,22 @@ body {
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Laptops */
@@ -592,7 +625,7 @@ body {
 
   .skill-icon {
     width: auto;
-    height: 15px;
+    /* height: 15px; */
   }
 
   .lang {
